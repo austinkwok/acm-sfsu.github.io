@@ -135,6 +135,11 @@ body{
     }
 }
 
+a.dsq-brlink{
+    font-style: italic;
+    color: $accent1;
+}
+
 .paginator{
     text-align: center;
     padding: 12px;
@@ -147,6 +152,16 @@ body{
             color: $accent1;
         }
     }
+}
+
+.svc-badge{
+    font-size: 36px;
+    width: 50px;
+    display: inline-block;
+    &:hover{
+        color: $accent1;
+    }
+    @include transition;
 }
 
 /* ==========================================================================
